@@ -80,3 +80,120 @@
         top: 30vh;
     }
 }
+
+
+/* Video section */
+
+.videoSection{
+    background: #F5F9FE 0% 0% no-repeat padding-box;
+}
+
+.videoSection-rightSide{
+    padding: 76px 176px 76px 76px !important;
+    min-height: 658px;
+}
+
+.videoSection-rightSide-SeasonTittle{
+    font: normal normal normal 35px/42px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: center;
+}
+
+.videoSection-rightSide-videoContainer{
+    position: relative;
+    margin-top: 96px !important;
+    background-color: #dde1e6;
+    border-radius: 60px;
+}
+
+.videoSection-rightSide-videoContainer-RightSide{
+    padding: 23px 33px 0px 29px !important;
+}
+
+.videoSection-rightSide-videoContainer-RightSide-TopicCover{
+    height: 110px;
+    width: 85px;
+    border-radius: 10px;
+    margin: 10.9px 0px 9.5px 0px;
+}
+
+.videoSection-rightSide-videoContainer-RightSide-RelatedTopics{
+    font: normal normal 300 13px/26px Poppins;
+    letter-spacing: 0px;
+    color: #6F7070;
+    margin-top: 15px;
+}
+
+.videoSection-rightSide-videoContainer-RightSide-TopicName{
+    font: normal normal 300 10px/13px Poppins;
+    letter-spacing: 0px;
+    color: #6F7070;
+    text-align: center;
+}
+
+.fixedColumn{
+    position: absolute;
+    background: #3F4143;
+    box-shadow: 0px 1px 5px #00000017;
+    opacity: 0.7;
+    top: -49px;
+    left: -76px;
+    min-height: 756px;
+    border-radius: 50px;
+    padding: 46px 12px 46px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fixedColumn-Episode{
+    font: normal normal 300 18px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.fixedColumn-EpisodeName{
+    font: normal normal normal 32px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.fixedColumn-EpisodeDescription{
+    font: normal normal 300 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.fixedColumn-Participants{
+    border-radius: 50%;
+    height: 113px !important;
+    width: 113px !important;
+    object-fit: cover;
+}
+
+.fixedColumn-ParticipantsName{
+    font: normal normal normal 13px/12px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.fixedColumn-ParticipantRole{
+    font: normal normal 300 10px/12px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.fixedColumn-Button{
+    background: #53B25D 0% 0% no-repeat padding-box;
+    border-radius: 39px;
+    border: none;
+    font: normal normal 600 15px/26px Poppins;
+    letter-spacing: 0px;
+    color: #F5F9FE;
+    padding: 18px 40px;
+    align-self: center;
+}

@@ -144,7 +144,7 @@
     top: -49px;
     left: -76px;
     right: -17px;
-    min-height: calc(100% + 98px);
+    min-height: calc(100% + 98px) !important;
     width: calc(100% + 59px) !important;
     border-radius: 50px;
     padding: 46px 12px 46px 28px;

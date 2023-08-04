@@ -71,8 +71,8 @@
         </div>
         <div class="container-fluid videoSection">
             <div class="row">
-                <div class="col-2">Menu</div>
-                <div class="col-10 videoSection-rightSide">
+                <div class="col-md-12 col-xl-2">Menu</div>
+                <div class="col-md-12 col-xl-9 videoSection-rightSide">
                     <div class="row">
                         <h3 class="videoSection-rightSide-SeasonTittle">
                             Season # 01
@@ -80,11 +80,11 @@
                     </div>
                     <div class="row videoSection-rightSide-videoContainer">
                         <div
-                            class="col-3 videoSection-rightSide-videoContainer-LeftSide"
+                            class="col-xs-0 col-md-4 col-xl-3 videoSection-rightSide-videoContainer-LeftSide"
                         >
                             <!-- White Space -->
 
-                            <div class="col-5 fixedColumn">
+                            <div class="fixedColumn">
                                 <div>
                                     <h4 class="fixedColumn-Episode">
                                         Episode 1:
@@ -138,9 +138,19 @@
                             </div>
                         </div>
                         <div
-                            class="col-9 videoSection-rightSide-videoContainer-RightSide"
+                            class="col-xs-12 col-md-8 col-xl-9 videoSection-rightSide-videoContainer-RightSide"
                         >
                             <div class="row">
+                                <div class="col-12 mobile">
+                                    <h4 class="fixedColumn-Episode">
+                                        Episode 1:
+                                    </h4>
+                                </div>
+                                <div class="col-12 mobile">
+                                    <p class="fixedColumn-EpisodeName">
+                                        Introduction
+                                    </p>
+                                </div>
                                 <div class="col-12 ratio ratio-16x9">
                                     <iframe
                                         src="https://player.vimeo.com/video/375751342?h=a331f46ef0"
@@ -149,8 +159,48 @@
                                         allowfullscreen
                                     ></iframe>
                                 </div>
+                                <p
+                                    class="col-12 fixedColumn-EpisodeDescription mobile"
+                                >
+                                    Chis Stecki and Peter Lucas Have a
+                                    conversation about the history of PHM
+                                    Technology, the history and current state of
+                                    the RAMS industry and how MADe platform lead
+                                    the way in Digitizing the RAMS for Industry
+                                    -leading organisations.
+                                </p>
                             </div>
-                            <div class="row">
+                            <div class="row mobile lightGrey pics">
+                                <div class="col-6 pic mobile">
+                                    <img
+                                        src="https://i.ibb.co/WDSK12q/closeup-male-studio-portrait-of-happy-man-looking-at-the-camera-image-free-photo.jpg"
+                                        alt="Host img"
+                                        class="img-fluid fixedColumn-Participants mobile"
+                                    />
+                                    <p class="fixedColumn-ParticipantsName mobile">
+                                        Peter Lucas <br />
+                                        <span
+                                            class="fixedColumn-ParticipantRole mobile"
+                                            >Host</span
+                                        >
+                                    </p>
+                                </div>
+                                <div class="col-6 pic mobile">
+                                    <img
+                                        src="https://i.ibb.co/T1tMt1D/Perfil-hombre-ba-sico-738242395.jpg"
+                                        alt=""
+                                        class="img-fluid fixedColumn-Participants mobile"
+                                    />
+                                    <p class="fixedColumn-ParticipantsName mobile">
+                                        Chis Stecki <br />
+                                        <span
+                                            class="fixedColumn-ParticipantRole mobile"
+                                            >CEO PHM Technology</span
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row lightGrey">
                                 <div class="col-12">
                                     <h5
                                         class="videoSection-rightSide-videoContainer-RightSide-RelatedTopics"
@@ -158,7 +208,7 @@
                                         Related topics:
                                     </h5>
                                 </div>
-                                <div class="col-2">
+                                <div class="col-3 pic">
                                     <img
                                         src="https://i.ibb.co/JtLcWBv/PHM.webp"
                                         alt="related topic img"
@@ -170,7 +220,7 @@
                                         PHM Ecosystem Overview
                                     </h6>
                                 </div>
-                                <div class="col-2">
+                                <div class="col-3 pic">
                                     <img
                                         src="https://i.ibb.co/Tg1TwLn/earth.jpg"
                                         alt="related topic img"
@@ -183,10 +233,23 @@
                                     </h6>
                                 </div>
                             </div>
+                            <div class="row mobile fixedColumn-EpisodeName">
+                                <div class="col-12 mobile">Next Chapters</div>
+                            </div>
+                            <div class="row mobile ">
+                                <div class="col-12">
+                                    <button class="invisibleButton fixedColumn-Button mobile">
+                                        Book a Demo Session
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mobile">
+            <button class="fixedColumn-Button floatingButton">Book a Demo Session</button>
         </div>
         <!-- Bootstrap -->
         <script

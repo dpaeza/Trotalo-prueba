@@ -89,8 +89,9 @@
 }
 
 .videoSection-rightSide{
-    padding: 76px 176px 76px 76px !important;
+    /* padding: 76px 176px 76px 76px !important; */
     min-height: 658px;
+
 }
 
 .videoSection-rightSide-SeasonTittle{
@@ -145,7 +146,7 @@
     left: -76px;
     right: -17px;
     min-height: calc(100% + 98px) !important;
-    width: calc(100% + 59px) !important;
+    width: calc(100% + 59px);
     border-radius: 50px;
     padding: 46px 12px 46px 28px;
     display: flex;
@@ -203,4 +204,86 @@
     color: #F5F9FE;
     padding: 18px 40px;
     align-self: center;
+}
+
+/* Responsive video */
+
+.mobile{
+    display: none;
+}
+
+
+.pics{
+    padding-top: 20px;
+}
+
+.pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1199px) {
+    .videoSection-rightSide {
+        padding: 0px 30px !important;
+    }
+
+    .fixedColumn {
+        left: 0px;
+        right: 0px;
+        width:calc(100% - 17px);
+    }
+}
+
+@media (max-width: 767px) {
+    .fixedColumn {
+        display: none;
+        visibility: hidden;
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .videoSection-rightSide-videoContainer-RightSide {
+        padding: 20px !important;
+    }
+
+    .videoSection-rightSide-videoContainer {
+        background: #3F4143;
+        border-radius: 0px;
+    }
+
+    .videoSection-rightSide {
+        padding: 0px 0px !important;
+
+    }
+
+    .fixedColumn-EpisodeDescription {
+        margin-top: 20px !important;
+    }
+
+    .fixedColumn-ParticipantsName {
+        color: #6F7070;
+    }
+
+    .fixedColumn-ParticipantRole {
+        color: #6F7070;
+    }
+
+    .invisibleButton{
+        background: #53b25c00 0% 0% no-repeat padding-box;
+        color: #f5f9fe00;
+    }
+
+    .floatingButton{
+        display: block;
+        position: fixed !important;
+        bottom: 10px;
+        width: 100vw;
+    }
+
+    .lightGrey{
+        background-color: #dde1e6;
+    }
 }
